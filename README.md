@@ -1,3 +1,3 @@
 # Read Me
 
-This is a repo to show how the observer design pattern work
+This is a repo to show how the observer design pattern work (Server Side)
