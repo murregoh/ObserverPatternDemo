@@ -20,7 +20,7 @@ namespace Models
         {
             foreach (Observer o in buyers)
             {
-                o.Update(oldValue, newValue);
+                o.SendEmail(oldValue, newValue);
             }
         }
 
@@ -28,7 +28,7 @@ namespace Models
         {
             foreach (Observer o in buyers)
             {
-                o.Update(oldValue, newValue);
+                o.SendEmail(oldValue, newValue);
             }
         }
     }
